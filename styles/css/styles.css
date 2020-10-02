@@ -19,6 +19,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
+  @media (max-height: 600px) {
+    .container {
+      height: auto; } }
   @media (min-width: 768px) {
     .container {
       flex-direction: row;
@@ -38,6 +41,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  @media (max-height: 600px) {
+    .form {
+      margin: 30px; } }
   @media (min-width: 768px) {
     .form {
       background-color: #f1f1f1;
@@ -132,6 +138,9 @@ footer {
   footer p {
     margin-bottom: 18px;
     color: rgba(0, 0, 0, 0.4); }
+  @media (max-height: 600px) {
+    footer {
+      display: none; } }
   @media (min-width: 768px) {
     footer {
       display: none; } }

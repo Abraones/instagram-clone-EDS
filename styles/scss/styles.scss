@@ -17,6 +17,13 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @media ($phone-flip){
+
+        height: auto;
+        
+
+
+    }
 
     @media ($desktop-breakpoint){
         flex-direction: row;
@@ -40,6 +47,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media ($phone-flip){
+        margin: 30px;
+    }
 
     @media ($desktop-breakpoint){
         background-color:  #f1f1f1;
@@ -172,6 +183,9 @@ footer{
     p{
         margin-bottom: 18px;
         color:rgba(0, 0, 0, 0.4);
+    }
+    @media ($phone-flip){
+        display: none;
     }
     @media ($desktop-breakpoint) {
         display: none;
