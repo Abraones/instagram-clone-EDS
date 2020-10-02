@@ -1,0 +1,10 @@
+@import "./_variables.scss";
+
+@media (max-width: 768px) {
+    $highlight-color:pink;
+
+    footer{
+        display: none;
+
+    }
+}
