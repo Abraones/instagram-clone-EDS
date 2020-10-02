@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body,
+html {
+  font-family: Arial;
+  height: 100%;
+  width: 100%; }
+
+/*# sourceMappingURL=reset.css.map */
